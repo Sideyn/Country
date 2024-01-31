@@ -1,20 +1,35 @@
+<!-- Declaration of the HTML document type and language -->
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
+    <!-- Meta tags specifying character set and viewport settings -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- External script link to Axios library for making HTTP requests -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Linking an external stylesheet for styling -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Title of the HTML document displayed on the browser tab -->
     <title>Country infos</title>
   </head>
 
   <body>
+    <!-- Heading for the webpage -->
     <h1>Country infos</h1>
+
+    <!-- Label and input field for entering a country name -->
     <label for="countryName">Enter a country name :</label>
     <input type="text" id="countryName" placeholder="Country name" />
+
+    <!-- Button for triggering the country information search -->
     <button id="searchButton">Search</button>
 
+    <!-- Container for displaying country information -->
     <div id="countryInfo">
+      <!-- Paragraphs displaying different aspects of country information -->
       <p><strong>Name :</strong> <span id="countryNameResult"></span></p>
       <p><strong>Capital :</strong> <span id="countryCapital"></span></p>
       <p><strong>Continent :</strong> <span id="countryContinent"></span></p>
@@ -22,9 +37,12 @@
       <p><strong>People :</strong> <span id="countryDemonym"></span></p>
       <p><strong>Population :</strong> <span id="countryPopulation"></span></p>
       <p><strong>Currency :</strong> <span id="countryCurrency"></span></p>
+
+      <!-- Image element for displaying the country flag -->
       <img id="countryFlag" src="" />
     </div>
 
+    <!-- External script link to the main JavaScript file -->
     <script src="main.js"></script>
   </body>
 </html>
