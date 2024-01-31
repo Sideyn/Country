@@ -4,7 +4,7 @@ This is a simple web application that allows users to retrieve information about
 
 ## Getting Started
 
-1. Open the link by here : https://sideyn.github.io/The-right-price/
+1. Open the link by here : https://sideyn.github.io/The-right-price/.
 2. Enter the name of the country in the input field labeled "Country name".
 3. Click the "Search" button to retrieve and display information about the specified country.
 4. If available, a button labeled "See on the map" will be displayed. Clicking this button will open a new tab with the location of the country on Google Maps.
