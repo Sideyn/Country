@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Country infos</title>
+  </head>
+
+  <body>
+    <h1>Country infos</h1>
+    <label for="countryName">Enter a country name :</label>
+    <input type="text" id="countryName" placeholder="Country name" />
+    <button id="searchButton">Search</button>
+
+    <div id="countryInfo">
+      <p><strong>Name :</strong> <span id="countryNameResult"></span></p>
+      <p><strong>Capital :</strong> <span id="countryCapital"></span></p>
+      <p><strong>Continent :</strong> <span id="countryContinent"></span></p>
+      <p><strong>Language :</strong> <span id="countryLanguage"></span></p>
+      <p><strong>People :</strong> <span id="countryDemonym"></span></p>
+      <p><strong>Population :</strong> <span id="countryPopulation"></span></p>
+      <p><strong>Currency :</strong> <span id="countryCurrency"></span></p>
+      <img id="countryFlag" src="" />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

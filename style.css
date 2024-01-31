@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Montserrat&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #282c34;
+  color: #fff;
+  margin: 0;
+  padding: 40px 0;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.container {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7); /* fond translucide */
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+p,
+span,
+label,
+button {
+  font-size: 1em;
+  font-family: "Hind Madurai", sans-serif;
+  color: #fff;
+}
+
+input,
+button {
+  padding: 15px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+button {
+  background-color: #ff616f;
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 5px 15px rgba(255, 97, 111, 0.4);
+}
+
+button:hover {
+  background-color: #ff4757;
+}
+
+#countryInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
+
+#countryInfo p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+#countryFlag {
+  height: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+}
