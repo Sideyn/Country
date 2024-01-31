@@ -1,5 +1,7 @@
+/* Importing external fonts from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Montserrat&display=swap");
 
+/* Styling for the entire webpage body */
 body {
   font-family: "Open Sans", sans-serif;
   background: #282c34;
@@ -11,6 +13,7 @@ body {
   text-align: center;
 }
 
+/* Styling for a container element within the body */
 .container {
   padding: 30px;
   background: rgba(0, 0, 0, 0.7); /* fond translucide */
@@ -20,12 +23,14 @@ body {
   max-width: 500px;
 }
 
+/* Styling for heading level 1 (H1) element */
 h1 {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   margin-bottom: 20px;
 }
 
+/* Styling for paragraphs, spans, labels, and buttons */
 p,
 span,
 label,
@@ -35,6 +40,7 @@ button {
   color: #fff;
 }
 
+/* Styling for input and button elements */
 input,
 button {
   padding: 15px 20px;
@@ -44,17 +50,20 @@ button {
   transition: all 0.3s ease;
 }
 
+/* Styling for input element */
 input {
   background-color: rgba(255, 255, 255, 0.8);
   color: #333;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Styling when input is focused */
 input:focus {
   background-color: rgba(255, 255, 255, 1);
   outline: none;
 }
 
+/* Styling for button element */
 button {
   background-color: #ff616f;
   color: white;
@@ -63,10 +72,12 @@ button {
   box-shadow: 0 5px 15px rgba(255, 97, 111, 0.4);
 }
 
+/* Styling on button hover */
 button:hover {
   background-color: #ff4757;
 }
 
+/* Styling for country info container */
 #countryInfo {
   display: flex;
   justify-content: center;
@@ -81,11 +92,13 @@ button:hover {
   width: 50%;
 }
 
+/* Styling for paragraphs within country info */
 #countryInfo p {
   text-align: center;
   line-height: 1.5;
 }
 
+/* Styling for country flag image */
 #countryFlag {
   height: auto;
   margin-top: 20px;
